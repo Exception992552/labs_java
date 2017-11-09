@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<orders>
+    <order xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="order">
+        <adress>Добровольского 87</adress>
+        <bucket> Пицца: Маренго / Кол-во: 1 / Цена: 190
+</bucket>
+        <date>14.04.2017 14:00</date>
+        <FIO>Тофанило</FIO>
+        <summ>190</summ>
+        <tel>063 128 36 23</tel>
+    </order>
+</orders>
