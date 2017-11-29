@@ -1,0 +1,48 @@
+/*
+ * To change this template, choose Tools | Templates
+ * and open the template in the editor.
+ */
+package trspo;
+
+import java.util.Scanner;
+import java.util.logging.Level;
+import java.util.logging.Logger;
+
+/**
+ *
+ * @author lab-2
+ */
+public class TRSPO {
+
+    /**
+     * @param args the command line arguments
+     */
+    public static void main(String[] args) {
+        // TODO code application logic 
+        Scanner input =new Scanner(System.in);
+        while(true){
+            System.out.println(" Enter my name::");
+            final String line=input.nextLine();
+        Thread thread=new Thread(new Runnable(){
+                @Override
+                public void run() {
+                    while(true)
+                try {
+                    Thread.sleep(3000);            
+                System.out.println("My name is:"+line);
+                } catch (InterruptedException ex) {
+                    Logger.getLogger(TRSPO.class.getName()).log(Level.SEVERE, null, ex);
+                }
+
+                    
+                }
+
+        
+        
+        
+        });
+        thread.start();    
+        }
+    }
+}
+
