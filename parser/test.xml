@@ -1,0 +1,24 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<Catalog>
+    <Pizza>
+        <Names>Маренго</Names>
+        <Photo>1.jpg</Photo>
+        <Sostav>Помидор, маслины, сыр Моцарелла, фирменный томатный соус, орегано 500 / 580 г.%</Sostav>
+        <Price>190</Price>
+    </Pizza>
+	
+    <Pizza>
+        <Names>4 сезона</Names>
+        <Photo>2.jpg</Photo>
+        <Sostav>Помидор, маслины, сыр Моцарелла, фирменный томатный соус, орегано 500 / 580 г.%</Sostav>
+        <Price>150</Price>
+    </Pizza>
+	
+    <Pizza>
+        <Names>Сладкая</Names>
+        <Photo>3.jpg</Photo>
+        <Sostav>Помидор, маслины, сыр Моцарелла, фирменный томатный соус, орегано 500/580 г.</Sostav>
+        <Price>290</Price>
+    </Pizza>
+	
+</Catalog>
